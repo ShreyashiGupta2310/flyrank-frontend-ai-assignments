@@ -2,57 +2,39 @@
 
 ## Overview
 
-FlyRank AI Capstone is a Node.js project exploring AI-powered solutions for search ranking, content optimization, and intelligent automation. This repository serves as the foundation for building, testing, and iterating on capstone deliverables.
+This repository contains my capstone project for the FlyRank AI Frontend Engineering Track. It serves as the foundation for learning AI-assisted software development, following industry best practices, and building production-ready frontend applications.
 
 ## Tech Stack
 
-- **Runtime:** Node.js
-- **Language:** TypeScript / JavaScript
-- **Package Manager:** npm
-- **AI Integration:** LLM APIs and related tooling
-- **Testing:** Jest (or project test runner of choice)
-- **Linting & Formatting:** ESLint, Prettier
+- HTML
+- CSS
+- JavaScript
+- React (planned)
+- Node.js
+- Git & GitHub
+- Cursor AI
 
 ## Goals
 
-- Design and implement AI-driven features that improve search ranking and content relevance
-- Build a maintainable, well-documented Node.js codebase
-- Follow consistent coding conventions and commit practices
-- Deliver a capstone project that demonstrates practical AI integration
-- Enable collaboration through clear documentation and project structure
+- Learn AI-assisted development workflows
+- Follow Conventional Commits
+- Build clean, maintainable frontend projects
+- Document development progress
+- Complete the FlyRank AI Capstone successfully
 
 ## Installation
 
-### Prerequisites
+```bash
+git clone https://github.com/<your-github-username>/flyrank-ai-capstone.git
+cd flyrank-ai-capstone
+```
 
-- [Node.js](https://nodejs.org/) (v18 or later recommended)
-- npm (included with Node.js)
+Install dependencies (when added):
 
-### Setup
+```bash
+npm install
+```
 
-1. Clone the repository:
+## License
 
-   ```bash
-   git clone https://github.com/<your-org>/flyrank-ai-capstone.git
-   cd flyrank-ai-capstone
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Configure environment variables:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-   Edit `.env` with your API keys and configuration values.
-
-4. Run the development server (once available):
-
-   ```bash
-   npm run dev
-   ```
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.

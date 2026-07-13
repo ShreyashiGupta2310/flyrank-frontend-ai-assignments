@@ -4,12 +4,11 @@ Guidance for AI assistants working in the **flyrank-ai-capstone** repository.
 
 ## Tech Stack
 
-- **Runtime:** Node.js (v18+)
-- **Language:** TypeScript preferred; JavaScript acceptable where appropriate
-- **Package Manager:** npm
-- **AI:** LLM APIs and related SDKs
-- **Testing:** Jest (or the project's configured test runner)
-- **Linting & Formatting:** ESLint, Prettier
+- Frontend: HTML, CSS, JavaScript
+- Framework: React (planned)
+- Runtime: Node.js
+- Version Control: Git & GitHub
+- AI IDE: Cursor
 
 ## Coding Conventions
 
@@ -41,14 +40,12 @@ Guidance for AI assistants working in the **flyrank-ai-capstone** repository.
 
 ## AI Assistant Rules
 
-1. **Minimize scope** — Change only what is needed for the task. Avoid unrelated refactors.
-2. **Read before writing** — Inspect surrounding code and follow existing conventions.
-3. **No over-engineering** — Prefer simple, direct solutions over premature abstraction.
-4. **No unnecessary files** — Do not add docs, configs, or helpers unless requested or clearly required.
-5. **Preserve behavior** — Do not change existing behavior unless the task requires it.
-6. **Security** — Never hardcode credentials. Use environment variables.
-7. **Tests** — Add or update tests when changing behavior; skip trivial or redundant tests.
-8. **Commits** — Do not create git commits unless explicitly asked.
+- Follow existing project structure and coding conventions.
+- Prefer simple, readable, and maintainable solutions.
+- Do not modify unrelated files.
+- Explain major changes when requested.
+- Never expose secrets or API keys.
+- Use Conventional Commits for all commit messages.
 
 ## Conventional Commit Guidelines
 
