@@ -6,9 +6,9 @@ This repository contains my capstone project for the FlyRank AI Frontend Enginee
 
 ## Tech Stack
 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 - React (planned)
 - Node.js
 - Git & GitHub
@@ -22,10 +22,14 @@ This repository contains my capstone project for the FlyRank AI Frontend Enginee
 - Document development progress
 - Complete the FlyRank AI Capstone successfully
 
+## Project Status
+
+ Repository setup completed. This project will be expanded throughout the FlyRank AI Frontend Engineering Track.
+
 ## Installation
 
 ```bash
-git clone https://github.com/<your-github-username>/flyrank-ai-capstone.git
+git clone https://github.com/ShreyashiGupta2310/flyrank-ai-capstone.git
 cd flyrank-ai-capstone
 ```
 
